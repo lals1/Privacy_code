@@ -1,3 +1,3 @@
-# hello-world
+This project contains the code used to anonymize dataset.
 
-# this is test line
+Anonymization algorithm used in this work are Differential privacy and l-diversity
