@@ -5,10 +5,11 @@ import hashlib
 import random
 
 
-f=open(r'D:\userdata\shalal\Desktop\homeCapture1.csv','r')
+f=open(r'D:\userdata\shalal\Desktop\Original_capture.csv','r')
 reader = csv.DictReader(f)
 
 #Function to obfuscate last octet of ip address
+
 def extractIP(row, field):
     num=row[field].split('.')
     if not len(num)==4:
